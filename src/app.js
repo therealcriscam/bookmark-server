@@ -19,7 +19,7 @@ app.use(morgan(morganOption));
 app.use(cors());
 app.use(helmet());
 
-app.use(auth);
+// app.use(auth);
 
 app.get('/', (req, res) => {
   res
