@@ -1,4 +1,4 @@
-const BookmarksService = require('../src/bookmarks-service')
+const BookmarksService = require('../src/bookmarks/bookmarks-service')
 const knex = require('knex')
 const {makeBookmarksArray} = require('./bookmarks.fixtures')
 
